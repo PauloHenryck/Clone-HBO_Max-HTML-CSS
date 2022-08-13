@@ -5,7 +5,7 @@
 
 body {
   background-image: url("./img/1199831.jpg");
-  background-size: cover;
+  background-size:cover;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: color;
   color: #eae9ed;
@@ -24,7 +24,8 @@ body {
 }
 
 .cabecalho__container h1 {
-  padding: 65px;
+  margin-top: 65px;
+  margin-bottom: 30px;
   color: white;
 }
 
@@ -40,13 +41,15 @@ input {
   margin-bottom: 0.6em;
 }
 
-.Campo label{
-    padding: 0 0 0 10px;
+.Campo label {
+  padding: 0 0 0 10px;
 }
 
 input {
-  width: 320px;
-  height: 25px;
+  width: 400px;
+  height: 30px;
+
+  margin-bottom: 25px;
 
   /* From https://css.glass */
   background: rgba(161, 161, 161, 0.45);
@@ -65,88 +68,102 @@ input {
   text-align: center;
 }
 
-.rodape__container p{
-    margin: 1em 1em;
+.rodape__container p {
+  margin: 1em 1em;
 }
 
 .botao__form {
-    background: rgb(222,107,221);
-    background: linear-gradient(90deg, rgba(222,107,221,1) 39%, rgba(242,227,242,1) 100%, rgba(206,74,208,1) 100%);
+  background: rgb(222, 107, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(222, 107, 221, 1) 39%,
+    rgba(242, 227, 242, 1) 100%,
+    rgba(206, 74, 208, 1) 100%
+  );
   border-radius: 20px;
   border: 0px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
+  margin-top: 20px;
 
-  height: 27px;
-  width: 100px;
+  height: 35px;
+  width: 130px;
+  color: #333;
 }
 
 .botao__rodape {
-    background: rgb(222,107,221);
-    background: linear-gradient(90deg, rgba(222,107,221,1) 39%, rgba(242,227,242,1) 100%, rgba(206,74,208,1) 100%);
+  background: rgb(222, 107, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(222, 107, 221, 1) 39%,
+    rgba(242, 227, 242, 1) 100%,
+    rgba(206, 74, 208, 1) 100%
+  );
   border-radius: 20px;
   border: 0px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
 
-  height: 27px;
-  width: 200px;
+  height: 35px;
+  width: 250px;
+  color: #333;
 }
 
 /* NAVEBAR */
 
 #navbar {
-    display: flex;
-    background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 41%, rgba(0,0,0,0.6587009803921569) 81%, rgba(0,0,0,0.08167016806722693) 100%);
-    color: white;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  display: flex;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 41%,
+    rgba(0, 0, 0, 0.6587009803921569) 81%,
+    rgba(0, 0, 0, 0.08167016806722693) 100%
+  );
+  color: white;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-#navbar .navbar-container{
-    width: 93%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0;
+#navbar .navbar-container {
+  width: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
-#navbar .navbar-container .logo{
-    height: 25px;
-    width: auto;
-    padding: 0px 0px 0px 40px;
+#navbar .navbar-container .logo {
+  height: 25px;
+  width: auto;
+  padding: 0px 0px 0px 40px;
 }
 
-#navbar .navbar-container .logo_menu, .logo_search{
-    height: 30px;
-    width: auto;
-    padding: 0px 0px 0px 40px;
-    
+#navbar .navbar-container .logo_menu,
+.logo_search {
+  height: 30px;
+  width: auto;
+  padding: 0px 0px 0px 40px;
 }
 
 #navbar .navbar-container ul {
-    display: flex;
-    list-style: none;
-    font-weight: bold;
+  display: flex;
+  list-style: none;
+  font-weight: bold;
 }
 
 #navbar .navbar-container ul li {
-    padding: 0 20px;
-    transition: all 300ms ease;
+  padding: 0 20px;
+  transition: all 300ms ease;
 }
 
-#navbar .navbar-container ul li:hover{
-    color: #1db954;
-    cursor: pointer;
+#navbar .navbar-container ul li:hover {
+  color: #1db954;
+  cursor: pointer;
 }
 
 #navbar .navbar-container ul li:nth-child(3) {
-    border-right: 1px solid white;
-}
-
-.iconmenu{
-    
+  border-right: 1px solid white;
 }
