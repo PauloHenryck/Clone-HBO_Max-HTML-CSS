@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-#videoBG{
+#videoBG {
   position: fixed;
   z-index: -1;
   width: 100%;
@@ -12,9 +12,9 @@
 
 body {
   /* background-image: url("./img/Pacificador\ -\ Abertura\ Completa\ -\ HBO\ Max.mp4"); */
-  background-size:cover;
+  /* background-size:cover;
   background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: color;
+  background-blend-mode: color; */
   color: #eae9ed;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -36,20 +36,28 @@ body {
   color: white;
 }
 
+p,h1{
+  text-shadow: 1px 1px 5px rgba(150, 150, 150, 0.83);
+}
+
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .Campo label,
 input {
   display: block;
   margin-bottom: 0.6em;
+  
 }
 
 .Campo label {
   padding: 0 0 0 10px;
+  text-shadow: 1px 1px 5px rgba(150, 150, 150, 0.83);
+  
 }
 
 input {
@@ -79,6 +87,7 @@ input {
 
 .rodape__container p {
   margin: 1em 1em;
+  text-shadow: 1px 1px 5px rgba(150, 150, 150, 0.83);
 }
 
 .botao__form {
