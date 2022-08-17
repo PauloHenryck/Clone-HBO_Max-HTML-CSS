@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">Link para acessar o projeto: https://paulohenryck.github.io/Clone-HBO_Max-HTML-CSS/<br><br>Link com descrição do desafio: https://encurtador.com.br/gjBIY<br><br>Link certificado do curso: https://encurtador.com.br/ctuGN</p>
+<p align="left">Link para acessar o projeto: https://paulohenryck.github.io/Desafio-HBO_Max-HTML-CSS/<br><br>Link com descrição do desafio: https://encurtador.com.br/gjBIY<br><br>Link certificado do curso: https://encurtador.com.br/ctuGN</p>
 
 ###
 
