@@ -1,4 +1,4 @@
-<h1 align="center">Projeto Clone Login HBO Max</h1>
+<h1 align="center">Projeto Desafio HBO Max</h1>
 
 ###
 
